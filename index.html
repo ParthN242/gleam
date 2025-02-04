@@ -1,71 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GLEM</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="container header">
-        <div class="top">
-            <div class="location">
-                <img src="./images/location.png" alt="location">
-                <p>Austin, Texas</p>
-                <img src="./images/arrow-down.png" alt="arrow-down">
+    <header class="container font-circular-std">
+        <div class="py-7 sm-pt-8 sm-pb-15">
+            <div class="grid grid-col-2 sm-grid-col-3">
+                <!-- Location -->
+                <div class="sm-flex hidden align-items-center">
+                    <div class="flex align-items-center gap-3 cursor-pointer">
+                        <div class="size-12">
+                            <img src="./images/location.png" alt="location" title="location" class="size-full">
+                        </div>
+                        <p>Austin, Texas</p>
+                        <div class="size-6">
+                            <img src="./images/arrow-down.png" alt="arrow-down" title="arrow-down" class="size-full">
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu And Logo -->
+                <div class="flex align-items-center gap-5 justify-content-start sm-justify-content-center">
+                    <img src="./images/menu.png" class="size-12 flex sm-hidden" alt="menu" title="menu">
+                    <img src="./images/logo.png" class="w-38 w-full sm-w-82" alt="logo" title="logo">
+                </div>
+                <!-- Icons  -->
+                <div class="flex gap-8 sm-gap-22 align-items-center justify-content-end">
+                    <div class="cursor-pointer hover-light-gray p-2 flex-center rounded-full sm-hidden">
+                        <img src="./images/cart.png" alt="cart" title="cart" class="size-12">
+                    </div>
+                    <div class="cursor-pointer hover-light-gray p-2 flex-center rounded-full">
+                        <img src="./images/search-normal.png" alt="search" title="search" class="size-12">
+                    </div>
+                    <div class="cursor-pointer hover-light-gray p-2 hidden sm-flex-center rounded-full">
+                        <img src="./images/heart.png" alt="heart" title="heart" class="size-12">
+                    </div>
+                    <div class="cursor-pointer hover-light-gray p-2 hidden sm-flex-center rounded-full">
+                        <img src="./images/notification.png" alt="notification" title="notification" class="size-12">
+                    </div>
+                    <div class="cursor-pointer hover-light-gray p-2 hidden sm-flex-center rounded-full">
+                        <img src="./images/profile.png" alt="profile" title="profile" class="size-12">
+                    </div>
+                </div>
+
             </div>
-            <div class="center">
-                <img src="./images/menu.png" class="menu" alt="menu">
-                <img src="./images/logo.png" class="logo" alt="logo">
-            </div>
-            <div class="icons">
-                <div class="icon cart">
-                    <img src="./images/cart.png" alt="cart">
-                </div>
-                <div class="icon serach">
-                    <img src="./images/search-normal.png" alt="search">
-                </div>
-                <div class="icon heart">
-                    <img src="./images/heart.png" alt="heart">
-                </div>
-                <div class="icon notification">
-                    <img src="./images/notification.png" alt="notification">
-                </div>
-                <div class="icon profile">
-                    <img src="./images/profile.png" alt="profile">
-                </div>
-            </div>
+            <nav class="">
+                <ul class="sm-flex hidden align-items-center justify-content-center gap-10">
+                    <li class="cursor-pointer px-2 py-3 hover-light-gray">
+                        Cleaning Services <span><img src="./images/arrow-down.png" alt="arrow-down"
+                                title="arrow-down"></span>
+                    </li>
+                    <li>
+                        <a href="#" class="px-2 py-3 hover-light-gray">Cleaning Tips</a>
+                    </li>
+                    <li>
+                        <a href="#" class="px-2 py-3 hover-light-gray">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="px-2 py-3 hover-light-gray">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav class="bottom">
-            <ul class="links">
-                <li class="link dropdown">
-                    Cleaning Services <span><img src="./images/arrow-down.png" alt="arrow-down"></span>
-                </li>
-                <li>
-                        <a href="#">Cleaning Tips</a>
-                </li>
-                <li>
-                    <a href="#">About Us</a>
-                </li>
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
     </header>
-    <section class="hero_section container">
-        <div class="left">
-            <h1 class="hero_heading">
-                Transform Your <br> Space with <span class="blue_text">Expert Cleaning Services </span>
+    <section class="flex flex-col sm-flex-row container">
+        <div class="pt-20 sm-pt-57 flex flex-col gap-8 sm-gap-15">
+            <h1 class="font-playfair-display font-normal text-16 sm-text-32 text-center sm-text-left">
+                Transform Your <br> Space with <span class="text-blue-primary">Expert Cleaning Services </span>
             </h1>
-            <p class="hero_text">
+            <p class="font-adobe-caslon-pro text-center sm-text-left text-gray-primary">
                 Discover expert cleaning solutions for your home.<br>
                 We provide top-notch, reliable, and efficient services tailored to your needs.
             </p>
         </div>
-        <div class="right">
-            <img src="./images/hero_image.png" alt="">
+        <div class="w-full pt-8 pb-21 sm-pt-26 sm-pb-55 flex-center">
+            <img src="./images/hero_image.png" alt="hero image" title="hero image"
+                class="max-size-full max-h-139 sm-max-h-full">
         </div>
     </section>
 </body>
+
 </html>
