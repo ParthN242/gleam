@@ -10,41 +10,47 @@
 
 <body>
     <header class="container font-circular-std">
-        <div class="py-7 sm-pt-8 sm-pb-15">
+        <div class="py-7 sm-pt-8 sm-pb-10 md-pb-15">
             <div class="grid grid-col-2 sm-grid-col-3">
                 <!-- Location -->
                 <div class="sm-flex hidden align-items-center">
                     <div class="flex align-items-center gap-3 cursor-pointer">
                         <div class="size-12">
-                            <img src="./images/location.png" alt="location" title="location" class="size-full">
+                            <img src="./public/images/location.png" alt="location" title="location" class="size-full">
                         </div>
                         <p>Austin, Texas</p>
                         <div class="size-6">
-                            <img src="./images/arrow-down.png" alt="arrow-down" title="arrow-down" class="size-full">
+                            <img src="./public//images/arrow-down.png" alt="arrow-down" title="arrow-down"
+                                class="size-full">
                         </div>
                     </div>
                 </div>
                 <!-- Menu And Logo -->
                 <div class="flex align-items-center gap-5 justify-content-start sm-justify-content-center">
-                    <img src="./images/menu.png" class="size-12 flex sm-hidden" alt="menu" title="menu">
-                    <img src="./images/logo.png" class="w-38 w-full sm-w-82" alt="logo" title="logo">
+                    <img src="./public//images/menu.png" class="size-12 flex sm-hidden" alt="menu" title="menu">
+                    <img src="./public//images/logo.png" class="w-38 w-full sm-w-82" alt="logo" title="logo">
                 </div>
                 <!-- Icons  -->
                 <div class="flex gap-8 sm-gap-22 align-items-center justify-content-end">
-                    <div class="cursor-pointer hover-light-gray p-2 flex-center rounded-full sm-hidden">
-                        <img src="./images/cart.png" alt="cart" title="cart" class="size-12">
+                    <div
+                        class="cursor-pointer hover-light-gray p-2 flex align-items-center justify-content-center rounded-full sm-hidden">
+                        <img src="./public//images/cart.png" alt="cart" title="cart" class="size-12">
                     </div>
-                    <div class="cursor-pointer hover-light-gray p-2 flex-center rounded-full">
-                        <img src="./images/search-normal.png" alt="search" title="search" class="size-12">
+                    <div class="cursor-pointer hover-light-gray p-2 flex rounded-full">
+                        <img src="./public//images/search-normal.png" alt="search" title="search" class="size-12">
                     </div>
-                    <div class="cursor-pointer hover-light-gray p-2 hidden sm-flex-center rounded-full">
-                        <img src="./images/heart.png" alt="heart" title="heart" class="size-12">
+                    <div
+                        class="cursor-pointer hover-light-gray p-2 hidden sm-flex align-items-center justify-content-center rounded-full">
+                        <img src="./public//images/heart.png" alt="heart" title="heart" class="size-12">
                     </div>
-                    <div class="cursor-pointer hover-light-gray p-2 hidden sm-flex-center rounded-full">
-                        <img src="./images/notification.png" alt="notification" title="notification" class="size-12">
+                    <div
+                        class="cursor-pointer hover-light-gray p-2 hidden sm-flex align-items-center justify-content-center rounded-full">
+                        <img src="./public//images/notification.png" alt="notification" title="notification"
+                            class="size-12">
                     </div>
-                    <div class="cursor-pointer hover-light-gray p-2 hidden sm-flex-center rounded-full">
-                        <img src="./images/profile.png" alt="profile" title="profile" class="size-12">
+                    <div
+                        class="cursor-pointer hover-light-gray p-2 hidden sm-flex align-items-center justify-content-center rounded-full">
+                        <img src="./public//images/profile.png" alt="profile" title="profile" class="size-12">
                     </div>
                 </div>
 
@@ -52,7 +58,7 @@
             <nav class="">
                 <ul class="sm-flex hidden align-items-center justify-content-center gap-10">
                     <li class="cursor-pointer px-2 py-3 hover-light-gray">
-                        Cleaning Services <span><img src="./images/arrow-down.png" alt="arrow-down"
+                        Cleaning Services <span><img src="./public//images/arrow-down.png" alt="arrow-down"
                                 title="arrow-down"></span>
                     </li>
                     <li>
@@ -68,9 +74,11 @@
             </nav>
         </div>
     </header>
+    <!-- Hero Section -->
     <section class="flex flex-col sm-flex-row container">
-        <div class="pt-20 sm-pt-57 flex flex-col gap-8 sm-gap-15">
-            <h1 class="font-playfair-display font-normal text-16 sm-text-32 text-center sm-text-left">
+        <div class="pt-20 md-pt-26 lg-pt-57 flex flex-col gap-4 md:gap-8 sm-gap-15">
+            <h1
+                class="font-playfair-display font-normal text-16 xl-text-32 lg-text-30 md-text-30 text-center sm-text-left">
                 Transform Your <br> Space with <span class="text-blue-primary">Expert Cleaning Services </span>
             </h1>
             <p class="font-adobe-caslon-pro text-center sm-text-left text-gray-primary">
@@ -78,9 +86,182 @@
                 We provide top-notch, reliable, and efficient services tailored to your needs.
             </p>
         </div>
-        <div class="w-full pt-8 pb-21 sm-pt-26 sm-pb-55 flex-center">
-            <img src="./images/hero_image.png" alt="hero image" title="hero image"
+        <!-- Hero Image -->
+        <div
+            class="w-full pt-8 sm-pt-16 lg-pt-26 pb-0 sm-pb-25 lg-pb-55  flex align-items-center justify-content-center">
+            <img src="./public//images/hero_image.png" alt="hero image" title="hero image"
                 class="max-size-full max-h-139 sm-max-h-full">
+        </div>
+    </section>
+    <!-- Introduction Section -->
+    <section class="container pt-20 pb-40 lg-pb-38">
+        <!-- Introduction Text -->
+        <div class="">
+            <h1
+                class="font-ivy-presto-display text-center text-16 xl-text-28 md-text-30 lg-text-24 font-thin text-gray-secondary">
+                How does it work?
+            </h1>
+            <p
+                class="font-circular-std text-gray-secondary pt-4 lg-pt-8 text-8 text-center w-full sm-w-half m-auto text-8 lg-text-10">
+                Sub text content goes here in 2 or 3 lines, libero justo egestas sem vitae pellentesque potenti a.
+                Sagittis feugiat sollicitudin turpis erat
+            </p>
+            <!-- Steps Cards -->
+            <div
+                class="flex align-items-center justify-content-around flex-col flex-wrap sm-flex-row gap-16 lg-row-gap-60 pt-15 lg-pt-75 max-w-full">
+                <!-- Card 1 -->
+                <div class="max-w-165">
+                    <!-- Image -->
+                    <div>
+                        <img src="./public/images/intro-1.png" alt="introduction image" title="introduction image"
+                            class="m-auto">
+                    </div>
+                    <!-- Content -->
+                    <div class="pt-10">
+                        <h4 class="font-circular-std text-center text-10 pb-4">1. Select your services</h4>
+                        <p class="font-circular-std text-center text-gray-secondary">Explore our comprehensive list of
+                            handyman services
+                            tailored for
+                            your home, office, or
+                            restaurant. Choose the specific
+                            services that match your maintenance and repair needs.</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="max-w-165 relative lg--top-40">
+                    <!-- Image -->
+                    <div>
+                        <img src="./public/images/intro-2.png" alt="introduction image" title="introduction image"
+                            class="m-auto">
+                    </div>
+                    <!-- Content -->
+                    <div class="pt-10">
+                        <h4 class="font-circular-std text-center text-10 pb-4">2. One time or subscribe</h4>
+                        <p class="font-circular-std text-center text-gray-secondary">Faucibus suspendisse integer sed
+                            adipiscing orci orci. Porta et ut et interdum dolor sit nisl commodo. Quam ornare
+                            varius cras amet risus mattis. Erat placerat massa mi a proin.</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="max-w-165">
+                    <!-- Image -->
+                    <div>
+                        <img src="./public/images/intro-3.png" alt="introduction image" title="introduction image"
+                            class="m-auto">
+                    </div>
+                    <!-- Content -->
+                    <div class="pt- 10">
+                        <h4 class="font-circular-std text-center text-10 pb-4">3. Select your preferred Provider</h4>
+                        <p class="font-circular-std text-center text-gray-secondary">Lobortis pellentesque euismod id in
+                            quis ut. Quis sagittis semper eu facilisi senectus nulla. Fames nisl id mi aliquet
+                            neque maecenas sed. Eget libero arcu mattis in in arcu erat. Turpis.</p>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="max-w-165">
+                    <!-- Image -->
+                    <div>
+                        <img src="./public/images/intro-4.png" alt="introduction image" title="introduction image"
+                            class="m-auto max-w-full">
+                    </div>
+                    <!-- Content -->
+                    <div class="pt-10">
+                        <h4 class="font-circular-std text-center text-10 pb-4">6. Make payment</h4>
+                        <p class="font-circular-std text-center text-gray-secondary">Explore our comprehensive list of
+                            handyman services
+                            tailored for
+                            your home, office, or
+                            restaurant. Choose the specific
+                            services that match your maintenance and repair needs.</p>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="max-w-165 relative lg--top-40">
+                    <!-- Image -->
+                    <div>
+                        <img src="./public/images/intro-1.png" alt="introduction image" title="introduction image"
+                            class="m-auto">
+                    </div>
+                    <!-- Content -->
+                    <div class="pt-10">
+                        <h4 class="font-circular-std text-center text-10 pb-4">5. Receive updates</h4>
+                        <p class="font-circular-std text-center text-gray-secondary">Explore our comprehensive list of
+                            handyman services
+                            tailored for
+                            your home, office, or
+                            restaurant. Choose the specific
+                            services that match your maintenance and repair needs.</p>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="max-w-165">
+                    <!-- Image -->
+                    <div>
+                        <img src="./public/images/intro-3.png" alt="introduction image" title="introduction image"
+                            class="m-auto">
+                    </div>
+                    <!-- Content -->
+                    <div class="pt-10">
+                        <h4 class="font-circular-std text-center text-10 pb-4">4. Rate & Review</h4>
+                        <p class="font-circular-std text-center text-gray-secondary">Sodales morbi eleifend faucibus
+                            ipsum malesuada. Vel amet enim varius gravida pulvinar augue sed massa. Egestas a sed in
+                            donec. Enim diam volutpat risus natoque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Category Section -->
+    <section class="container">
+        <!-- Category Text -->
+        <div class="pt-20 pb-12 lg-pb-32">
+            <h1 class="font-ivy-presto-display text-gray-secondary text-16 font-thin text-center pb-4 lg-pb-12">
+                Wide range of categories
+            </h1>
+            <p class="font-circular-std text-gray-secondary text-center text-8">
+                Explore Our Extensive Cleaning Services for Every Space
+            </p>
+        </div>
+        <!--Category Cards -->
+        <div class="flex align-items-center justify-content-center">
+            <div class="grid grid-col-2 lg-grid-col-4 gap-6 lg-gap-16 justify-content-center w-fit pb-40">
+                <!-- Card 1 -->
+                <div class="rounded-5 no-repeat bg-size-cover"
+                    style="background-image: url(./public/images/category-4.png);">
+                    <div class="rounded-5 flex align-items-center   justify-content-center w-88 md-w-100 md-h-100 lg-w-110 lg-h-110 xl-w-135 xl-h-135 h-88 "
+                        style="backdrop-filter: brightness(0.5);">
+                        <p class="font-circular-std text-white text-center lg-text-12 ">Regular House <br>
+                            Cleaning</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="rounded-5 no-repeat bg-size-cover"
+                    style="background-image: url(./public/images/category-2.png);">
+                    <div class="rounded-5 flex align-items-center   justify-content-center w-88 md-w-100 md-h-100 lg-w-110 lg-h-110 xl-w-135 xl-h-135 h-88 "
+                        style="backdrop-filter: brightness(0.5);">
+                        <p class="font-circular-std text-white text-center lg-text-12 ">Deep <br> Cleaning</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="rounded-5 no-repeat bg-size-cover"
+                    style="background-image: url(./public/images/category-3.png);">
+                    <div class="rounded-5 flex align-items-center   justify-content-center w-88 md-w-100 md-h-100 lg-w-110 lg-h-110 xl-w-135 xl-h-135 h-88 "
+                        style="backdrop-filter: brightness(0.5);">
+                        <p class="font-circular-std text-white text-center lg-text-12 ">Move in move out <br>
+                            Cleaning</p>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="rounded-5 no-repeat bg-size-cover"
+                    style="background-image: url(./public/images/category-4.png);">
+                    <div class="rounded-5 flex align-items-center   justify-content-center w-88 md-w-100 md-h-100 lg-w-110 lg-h-110 xl-w-135 xl-h-135 h-88 "
+                        style="backdrop-filter: brightness(0.5);">
+                        <p class="font-circular-std text-white text-center lg-text-12 ">Post Construction <br>
+                            Cleaning Up</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 </body>
