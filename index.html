@@ -9,82 +9,85 @@
 </head>
 
 <body>
-    <header class="container font-circular-std">
-        <div class="py-7 sm-pt-8 sm-pb-10 md-pb-15">
-            <div class="grid grid-col-2 sm-grid-col-3">
-                <!-- Location -->
-                <div class="sm-flex hidden align-items-center">
-                    <div class="flex align-items-center gap-3 cursor-pointer">
-                        <div class="size-12">
-                            <img src="./public/images/location.png" alt="location" title="location" class="size-full">
+    <header class="sticky border-bottom top-0 z-999 bg-white font-circular-std">
+        <div class="container">
+            <div class="py-7 sm-pt-8 sm-pb-10 md-pb-15">
+                <div class="grid grid-col-2 sm-grid-col-3">
+                    <!-- Location -->
+                    <div class="sm-flex hidden align-items-center">
+                        <div class="flex align-items-center gap-3 cursor-pointer">
+                            <div class="size-12">
+                                <img src="./public/images/location.png" alt="location" title="location"
+                                    class="size-full">
+                            </div>
+                            <p>Austin, Texas</p>
+                            <div class="size-6">
+                                <img src="./public//images/arrow-down.png" alt="arrow-down" title="arrow-down"
+                                    class="size-full">
+                            </div>
                         </div>
-                        <p>Austin, Texas</p>
-                        <div class="size-6">
-                            <img src="./public//images/arrow-down.png" alt="arrow-down" title="arrow-down"
-                                class="size-full">
+                    </div>
+                    <!-- Menu And Logo -->
+                    <div class="flex align-items-center gap-5 justify-content-start sm-justify-content-center">
+                        <img src="./public//images/menu.png" class="size-12 flex sm-hidden" alt="menu" title="menu">
+                        <img src="./public//images/logo.png" class="w-38 w-full sm-w-82" alt="logo" title="logo">
+                    </div>
+                    <!-- Icons  -->
+                    <div class="flex gap-8 sm-gap-22 align-items-center justify-content-end">
+                        <div
+                            class="cursor-pointer hover-light-gray p-2 flex align-items-center justify-content-center rounded-full sm-hidden">
+                            <img src="./public//images/cart.png" alt="cart" title="cart" class="size-12">
+                        </div>
+                        <div class="cursor-pointer hover-light-gray p-2 flex rounded-full">
+                            <img src="./public//images/search-normal.png" alt="search" title="search" class="size-12">
+                        </div>
+                        <div
+                            class="cursor-pointer hover-light-gray p-2 hidden sm-flex align-items-center justify-content-center rounded-full">
+                            <img src="./public//images/heart.png" alt="heart" title="heart" class="size-12">
+                        </div>
+                        <div
+                            class="cursor-pointer hover-light-gray p-2 hidden sm-flex align-items-center justify-content-center rounded-full">
+                            <img src="./public//images/notification.png" alt="notification" title="notification"
+                                class="size-12">
+                        </div>
+                        <div
+                            class="cursor-pointer hover-light-gray p-2 hidden sm-flex align-items-center justify-content-center rounded-full">
+                            <img src="./public//images/profile.png" alt="profile" title="profile" class="size-12">
                         </div>
                     </div>
-                </div>
-                <!-- Menu And Logo -->
-                <div class="flex align-items-center gap-5 justify-content-start sm-justify-content-center">
-                    <img src="./public//images/menu.png" class="size-12 flex sm-hidden" alt="menu" title="menu">
-                    <img src="./public//images/logo.png" class="w-38 w-full sm-w-82" alt="logo" title="logo">
-                </div>
-                <!-- Icons  -->
-                <div class="flex gap-8 sm-gap-22 align-items-center justify-content-end">
-                    <div
-                        class="cursor-pointer hover-light-gray p-2 flex align-items-center justify-content-center rounded-full sm-hidden">
-                        <img src="./public//images/cart.png" alt="cart" title="cart" class="size-12">
-                    </div>
-                    <div class="cursor-pointer hover-light-gray p-2 flex rounded-full">
-                        <img src="./public//images/search-normal.png" alt="search" title="search" class="size-12">
-                    </div>
-                    <div
-                        class="cursor-pointer hover-light-gray p-2 hidden sm-flex align-items-center justify-content-center rounded-full">
-                        <img src="./public//images/heart.png" alt="heart" title="heart" class="size-12">
-                    </div>
-                    <div
-                        class="cursor-pointer hover-light-gray p-2 hidden sm-flex align-items-center justify-content-center rounded-full">
-                        <img src="./public//images/notification.png" alt="notification" title="notification"
-                            class="size-12">
-                    </div>
-                    <div
-                        class="cursor-pointer hover-light-gray p-2 hidden sm-flex align-items-center justify-content-center rounded-full">
-                        <img src="./public//images/profile.png" alt="profile" title="profile" class="size-12">
-                    </div>
-                </div>
 
+                </div>
+                <nav>
+                    <ul class="sm-flex hidden align-items-center justify-content-center gap-10 mt-4 ">
+                        <li>
+                            <a href="#cleaning" class="cursor-pointer px-2 py-3">
+                                Cleaning Services <span><img src="./public//images/arrow-down.png" alt="arrow-down"
+                                        title="arrow-down"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#cleaning" class="px-2 py-3">Cleaning Tips</a>
+                        </li>
+                        <li>
+                            <a href="#aboutus" class="px-2 py-3">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#footer" class="px-2 py-3">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="">
-                <ul class="sm-flex hidden align-items-center justify-content-center gap-10">
-                    <li>
-                        <a href="#cleaning" class="cursor-pointer px-2 py-3">
-                            Cleaning Services <span><img src="./public//images/arrow-down.png" alt="arrow-down"
-                                    title="arrow-down"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#cleaning" class="px-2 py-3">Cleaning Tips</a>
-                    </li>
-                    <li>
-                        <a href="#aboutus" class="px-2 py-3">About Us</a>
-                    </li>
-                    <li>
-                        <a href="#footer" class="px-2 py-3">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
         </div>
     </header>
     <!-- Hero Section -->
-    <section class="flex flex-col sm-flex-row container">
+    <section class="flex flex-col gap-8 sm-flex-row container">
         <div class="pt-20 md-pt-26 lg-pt-57 flex flex-col gap-4 md:gap-8 sm-gap-15">
             <h1
-                class="font-playfair-display font-normal text-16 xl-text-32 lg-text-30 md-text-30 text-center sm-text-left">
-                Transform Your <br> Space with <span class="text-blue-primary">Expert Cleaning Services </span>
+                class="font-playfair-display font-normal text-16 xl-text-32 lg-text-30 md-text-28 text-center sm-text-left">
+                Transform Your Space with <span class="text-blue-primary">Expert Cleaning Services </span>
             </h1>
-            <p class="font-adobe-caslon-pro text-center sm-text-left text-gray-primary">
-                Discover expert cleaning solutions for your home.<br>
+            <p class="font-adobe-caslon-pro sm-text-12 text-center sm-text-left text-gray-primary">
+                Discover expert cleaning solutions for your home.
                 We provide top-notch, reliable, and efficient services tailored to your needs.
             </p>
         </div>
@@ -121,7 +124,8 @@
                     <!-- Content -->
                     <div class="pt-10">
                         <h4 class="font-circular-std text-center text-10 pb-4">1. Select your services</h4>
-                        <p class="font-circular-std text-center text-gray-secondary">Explore our comprehensive list of
+                        <p class="font-circular-std text-center text-gray-secondary text-7">Explore our comprehensive
+                            list of
                             handyman services
                             tailored for
                             your home, office, or
@@ -132,14 +136,15 @@
                 <!-- Card 2 -->
                 <div class="max-w-165 relative lg--top-40">
                     <!-- Image -->
-                    <div>
+                    <div class="w-full">
                         <img src="./public/images/intro-2.png" alt="introduction image" title="introduction image"
-                            class="m-auto">
+                            class="m-auto w-full">
                     </div>
                     <!-- Content -->
                     <div class="pt-10">
                         <h4 class="font-circular-std text-center text-10 pb-4">2. One time or subscribe</h4>
-                        <p class="font-circular-std text-center text-gray-secondary">Faucibus suspendisse integer sed
+                        <p class="font-circular-std text-center text-gray-secondary text-7">Faucibus suspendisse integer
+                            sed
                             adipiscing orci orci. Porta et ut et interdum dolor sit nisl commodo. Quam ornare
                             varius cras amet risus mattis. Erat placerat massa mi a proin.</p>
                     </div>
@@ -154,7 +159,8 @@
                     <!-- Content -->
                     <div class="pt- 10">
                         <h4 class="font-circular-std text-center text-10 pb-4">3. Select your preferred Provider</h4>
-                        <p class="font-circular-std text-center text-gray-secondary">Lobortis pellentesque euismod id in
+                        <p class="font-circular-std text-center text-gray-secondary text-7">Lobortis pellentesque
+                            euismod id in
                             quis ut. Quis sagittis semper eu facilisi senectus nulla. Fames nisl id mi aliquet
                             neque maecenas sed. Eget libero arcu mattis in in arcu erat. Turpis.</p>
                     </div>
@@ -169,7 +175,8 @@
                     <!-- Content -->
                     <div class="pt-10">
                         <h4 class="font-circular-std text-center text-10 pb-4">6. Make payment</h4>
-                        <p class="font-circular-std text-center text-gray-secondary">Explore our comprehensive list of
+                        <p class="font-circular-std text-center text-gray-secondary text-7">Explore our comprehensive
+                            list of
                             handyman services
                             tailored for
                             your home, office, or
@@ -187,7 +194,8 @@
                     <!-- Content -->
                     <div class="pt-10">
                         <h4 class="font-circular-std text-center text-10 pb-4">5. Receive updates</h4>
-                        <p class="font-circular-std text-center text-gray-secondary">Explore our comprehensive list of
+                        <p class="font-circular-std text-center text-gray-secondary text-7">Explore our comprehensive
+                            list of
                             handyman services
                             tailored for
                             your home, office, or
@@ -205,7 +213,8 @@
                     <!-- Content -->
                     <div class="pt-10">
                         <h4 class="font-circular-std text-center text-10 pb-4">4. Rate & Review</h4>
-                        <p class="font-circular-std text-center text-gray-secondary">Sodales morbi eleifend faucibus
+                        <p class="font-circular-std text-center text-gray-secondary text-7">Sodales morbi eleifend
+                            faucibus
                             ipsum malesuada. Vel amet enim varius gravida pulvinar augue sed massa. Egestas a sed in
                             donec. Enim diam volutpat risus natoque.</p>
                     </div>
@@ -292,10 +301,10 @@
                             class="w-full">
                     </div>
                     <div class="mt-8">
-                        <h4 class="text-10 md-text-12 text-blue-primary font-circular-std">Book a Clean Online =
+                        <h4 class="text-11 md-text-12 text-blue-primary font-circular-std">Book a Clean Online =
                             Anytime, Anywhere
                         </h4>
-                        <p class="font-circular-std mt-6">
+                        <p class="font-circular-std mt-6 text-gray-primary">
                             Whether you need certain rooms done or the entire house deep cleaned, The Maids has a clean
                             to fit your needs and
                             budget. Find The Maids near you, get a free quote and book your service online 24/7. Pick
@@ -312,10 +321,10 @@
                             class="w-full">
                     </div>
                     <div class="mt-8">
-                        <h4 class="text-10 md-text-12 text-blue-primary font-circular-std">Trained Teams = Faster <br
+                        <h4 class="text-11 md-text-12 text-blue-primary font-circular-std">Trained Teams = Faster <br
                                 class="hidden sm-block"> Cleans
                         </h4>
-                        <p class="font-circular-std mt-6">
+                        <p class="font-circular-std mt-6 text-gray-primary">
                             Flexible team sizes to meet your needs. Our teams can get in and out of your home faster
                             with a more thorough clean. The
                             only maid service backed by Mr. Clean®, our highly trained teams are bonded, insured, and
@@ -332,10 +341,10 @@
                             class="w-full object-cover">
                     </div>
                     <div class="mt-8">
-                        <h4 class="text-10 md-text-12 text-blue-primary font-circular-std">Your Custom Cleans =
+                        <h4 class="text-11 md-text-12 text-blue-primary font-circular-std">Your Custom Cleans =
                             Affordable Routine
                         </h4>
-                        <p class="font-circular-std mt-6">
+                        <p class="font-circular-std mt-6 text-gray-primary">
                             Our 22-Step Cleaning Process cleans your home top to bottom and guards against germs and
                             allergens. We treat your home
                             like it’s our own. It’s more than a job to us — it’s our calling.
@@ -505,7 +514,7 @@
                             class="w-full">
                     </div>
                     <div class="mt-6">
-                        <h6 class="text-10 md-text-12 text-blue-primary font-circular-std">
+                        <h6 class="text-10 md-text-12 text-blue-primary font-circular-std font-bold">
                             Cleaning tips, tricks & hacks
                         </h6>
                         <p class="mt-6 text-gray-secondary font-circular-std">Professional cleaning solutions for
@@ -527,7 +536,7 @@
                             class="w-full">
                     </div>
                     <div class="mt-6">
-                        <h6 class="text-10 md-text-12 text-blue-primary font-circular-std">
+                        <h6 class="text-10 md-text-12 text-blue-primary font-circular-std font-bold">
                             Cleaning tips, tricks & hacks
                         </h6>
                         <p class="mt-6 text-gray-secondary font-circular-std">Professional cleaning solutions for
@@ -549,7 +558,7 @@
                             class="w-full">
                     </div>
                     <div class="mt-6">
-                        <h6 class="text-10 md-text-12 text-blue-primary font-circular-std">
+                        <h6 class="text-10 md-text-12 text-blue-primary font-circular-std font-bold">
                             Cleaning tips, tricks & hacks
                         </h6>
                         <p class="mt-6 text-gray-secondary font-circular-std">Professional cleaning solutions for
@@ -568,7 +577,7 @@
             <!-- Button -->
             <div class="flex align-items-center justify-content-center">
                 <button
-                    class="bg-green-secondary pt-8 pb-8 px-23 text-white rounded-2 border-none font-circular-std cursor-pointer md-text-9">View
+                    class="bg-green-secondary text-8 pt-8 pb-8 px-23 text-white rounded-2 border-none font-circular-std cursor-pointer md-text-9">View
                     more Blogs</button>
             </div>
         </div>
@@ -579,7 +588,7 @@
             <h2 class="font-ivy-presto-display text-16 md-text-24 mb-10 md-mb-20 text-white font-thin">Gleam your casa
                 is
                 available in</h2>
-            <h6 class="text-8 md-text-18 text-white mb-7 md-mb-19 font-bold font-circular-std">United states</h6>
+            <h6 class="text-9 md-text-18 text-white mb-7 md-mb-19 font-bold font-circular-std">United states</h6>
             <p class="text-white md-text-9 font-circular-std">Kirkland</p>
         </div>
     </section>
@@ -588,7 +597,7 @@
             <!-- Top -->
             <div class="flex flex-col md-flex-row justify-content-between">
                 <!-- Top Left -->
-                <div class="flex md-flex-col gap-10 w-half">
+                <div class="flex md-flex-col gap-10 md-w-half">
                     <div class="flex flex-col gap-0 md-flex-row md-mb-32 md-gap-50">
                         <!-- About Us -->
                         <div class="mb-10">
@@ -612,7 +621,7 @@
                     </div>
                 </div>
                 <!-- Top Right -->
-                <div class="flex flex-col md-gap-24">
+                <div class="flex flex-col md-gap-24 md-w-half">
                     <!-- Line -->
                     <div class="w-full border-slate mt-15 mb-15 md-hidden"></div>
                     <!-- Social Media & Payment Methods -->
@@ -651,10 +660,11 @@
                     <!-- Contact -->
                     <div class="flex flex-col md-align-item-end">
                         <h3 class="mb-4 font-circular-std md-text-10">Get in touch</h3>
-                        <p class="text-gray-tertiary font-circular-std mb-10 md-text-9">Reliable at-home services for
+                        <p class="text-gray-tertiary md-text-right font-circular-std mb-10 md-text-9">Reliable at-home
+                            services for
                             all your
                             constructional needs</p>
-                        <div class="flex gap-7 font-circular-std">
+                        <div class="flex gap-7 md-justify-content-end  flex-wrap font-circular-std">
                             <button
                                 class="bg-green-secondary rounded-2 text-9 border-none outline-none text-white pt-5 pb-5 md-pt-7 md-pb-7 pr-13 pl-13 text-nowrap cursor-pointer md-w-100">Contact
                                 us</button>
